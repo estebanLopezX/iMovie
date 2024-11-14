@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.caratula {
+    width: 100px; /* Ancho de las carátulas laterales */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.caratula-principal {
+    width: 200px; /* Ancho de la carátula principal */
+    margin: 0 20px;
+}
+
+.caratula img,
+.caratula-principal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caratula:hover {
+    transform: scale(1.1);
+}
+

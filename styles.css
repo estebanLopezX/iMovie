@@ -1,0 +1,224 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: url(Imaganes/TU\ MEJOR\ AMIGO\ -\ WALPAPER.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.requisitos-imagen {
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.contenedor-logo{
+    width: 20%;
+    float: left;
+}
+
+.logo{
+    width: 150px;
+    height: 70px;
+    padding: 2%;
+}
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    width: 50%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.etiquetas {
+    margin: 10px;
+}
+
+.busqueda { 
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.busqueda-cuadro{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px dotted black;
+    padding: 1px;
+}
+
+.lupa {
+    height: 30%;
+    width: 10%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+}
+
+.todo-pelicula{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.informacion-general{
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+
+}
+
+.contenedor-nombre-pelicula{
+    width: 100%;
+}
+
+.logo-pelicula {
+    width: 30%;
+    padding: 3%; 
+}
+
+.informacion-pelicula {
+    display: flex;
+}
+
+.informacion-pelicula-logo{
+    margin-left: 5%;
+    border-left: 1px solid rgba(255, 255, 255, 0.533);
+    color: white;
+    padding-left: 2%;
+}
+
+.descripcion-pelicula{
+    margin: 2% 0% 0% 5%;
+    color: white;
+}
+
+.opciones-pelicula{
+    display: flex;
+    padding-top: 3%;
+}
+
+.opciones-pelicula-espe{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 4%;
+    width: 20%;
+    font-size: 13px;
+    padding: 1% 0% 1% 1%;
+    color: white;
+    cursor: pointer;
+}
+
+.wacth{
+    background-color: rgb(245, 43, 43);
+}
+
+.my-list{
+    background-color: #3333334e;
+}
+
+.caratulas {
+    background-color: #3333330c;
+    margin-left: 10%;
+    width: 40%;
+    height: 80%;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.opciones-caratulas{
+    width: 100%;
+    height: 70%;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagenes */
+.todas-caratulas{
+    width: 30%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.izquierda{
+    width: 25%;
+    height: 70%;
+    margin-right: 10px;
+}
+
+.derecha{
+    width: 25%;
+    height: 70%;
+    margin-left: 10px;
+}
+
+/* -------- */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+}
+
+.trailer {
+    width: 60%;
+    margin-left: 6%;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.redes-sociales {
+    margin-left: 20%;
+    width: 10%;
+}
+
+.redes{
+    margin-left: 10%;
+    cursor: pointer;
+    color: white;
+}
